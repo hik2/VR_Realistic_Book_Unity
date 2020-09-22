@@ -186,11 +186,11 @@ public class MegaBookBuilder : MonoBehaviour
 #if UNITY_5_4_OR_NEWER
 	public Transform			anchorOverride = null;
 #if UNITY_5_4_OR_NEWER || UNITY_2017
-	public ReflectionProbeUsage	reflectionProbes = ReflectionProbeUsage.Off;
+	//public ReflectionProbeUsage	reflectionProbes = ReflectionProbeUsage.Off;
 #else
 	public ReflectionProbeUsage	reflectionProbes = false;
 #endif
-	public LightProbeUsage		lightProbeUsage = LightProbeUsage.Off;
+	//public LightProbeUsage		lightProbeUsage = LightProbeUsage.Off;
 #if UNITY_5_5_OR_NEWER
 	public MotionVectorGenerationMode	motionVectors = MotionVectorGenerationMode.Camera;
 #endif
@@ -824,8 +824,8 @@ public class MegaBookBuilder : MonoBehaviour
 
 
 		cmr.probeAnchor = anchorOverride;
-		cmr.reflectionProbeUsage = reflectionProbes;
-		cmr.lightProbeUsage = lightProbeUsage;
+		//cmr.reflectionProbeUsage = reflectionProbes;
+		//cmr.lightProbeUsage = lightProbeUsage;
 #if UNITY_5_5_OR_NEWER
 		cmr.motionVectorGenerationMode = motionVectors;
 #endif
@@ -1123,8 +1123,8 @@ public class MegaBookBuilder : MonoBehaviour
 
 
 		cmr.probeAnchor = anchorOverride;
-		cmr.reflectionProbeUsage = reflectionProbes;
-		cmr.lightProbeUsage = lightProbeUsage;
+		//cmr.reflectionProbeUsage = reflectionProbes;
+		//cmr.lightProbeUsage = lightProbeUsage;
 #if UNITY_5_5_OR_NEWER
 		cmr.motionVectorGenerationMode = motionVectors;
 #endif

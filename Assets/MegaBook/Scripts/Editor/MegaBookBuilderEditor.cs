@@ -409,7 +409,7 @@ public class MegaBookBuilderEditor : Editor
 				updatemesh = true;
 			}
 
-			ReflectionProbeUsage rp = (ReflectionProbeUsage)EditorGUILayout.EnumPopup("Reflection Usage", mod.reflectionProbes);
+			/*ReflectionProbeUsage rp = (ReflectionProbeUsage)EditorGUILayout.EnumPopup("Reflection Usage", mod.reflectionProbes);
 			if ( rp != mod.reflectionProbes )
 			{
 				mod.reflectionProbes = rp;
@@ -421,7 +421,7 @@ public class MegaBookBuilderEditor : Editor
 			{
 				mod.lightProbeUsage = lp;
 				updatemesh = true;
-			}
+			}*/
 
 			GameObject pv = (GameObject)EditorGUILayout.ObjectField("Proxy Volume", mod.proxyVolume, typeof(GameObject), true);
 			if ( pv != mod.proxyVolume )
