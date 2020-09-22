@@ -1,4 +1,4 @@
-# VR_Realistic_Book_Unity
+# VR Realistic Book Unity
 
 ### Prerequisites
 
