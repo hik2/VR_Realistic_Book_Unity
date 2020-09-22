@@ -1,5 +1,9 @@
 # VR Realistic Book Unity
 
+<p align="center">
+  <img src=bookImage.png>
+</p>
+
 ### Prerequisites
 
 * VR-ready PC
