@@ -8,7 +8,7 @@
 
 ## Built with
 
-* Originally built with [Unity 2017.4.1](https://unity3d.com/get-unity/download/archive) - Game Engine for VR
+* Originally built with [Unity 2017.4.1](https://unity3d.com/get-unity/download/archive) and updated for Unity 2019.4.4f1
 * Samsung HMD Odyssey - Headset used
 * Windows Mixed Reality Controllers - Controllers used
 * [SteamVR Plugin](https://assetstore.unity.com/packages/tools/integration/steamvr-plugin-32647) - Unity plugin for PC VR
